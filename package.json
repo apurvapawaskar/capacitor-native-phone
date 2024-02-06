@@ -1,6 +1,6 @@
 {
   "name": "capacitor-native-phone",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This plugin allows user to place a phone call",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
