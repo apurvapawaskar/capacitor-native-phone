@@ -14,10 +14,7 @@ npx cap sync
 <docgen-index>
 
 * [`makeACall(...)`](#makeacall)
-* [`checkPermission()`](#checkpermission)
-* [`requestPermission()`](#requestpermission)
 * [Interfaces](#interfaces)
-* [Type Aliases](#type-aliases)
 
 </docgen-index>
 
@@ -37,28 +34,6 @@ makeACall(options: PhoneOptions) => Promise<void>
 --------------------
 
 
-### checkPermission()
-
-```typescript
-checkPermission() => Promise<PermissionStatus>
-```
-
-**Returns:** <code>Promise&lt;<a href="#permissionstatus">PermissionStatus</a>&gt;</code>
-
---------------------
-
-
-### requestPermission()
-
-```typescript
-requestPermission() => Promise<PermissionStatus>
-```
-
-**Returns:** <code>Promise&lt;<a href="#permissionstatus">PermissionStatus</a>&gt;</code>
-
---------------------
-
-
 ### Interfaces
 
 
@@ -67,20 +42,6 @@ requestPermission() => Promise<PermissionStatus>
 | Prop               | Type                |
 | ------------------ | ------------------- |
 | **`phone_number`** | <code>string</code> |
-
-
-#### PermissionStatus
-
-| Prop        | Type                                                        |
-| ----------- | ----------------------------------------------------------- |
-| **`phone`** | <code><a href="#permissionstate">PermissionState</a></code> |
-
-
-### Type Aliases
-
-
-#### PermissionState
-
-<code>'prompt' | 'prompt-with-rationale' | 'granted' | 'denied'</code>
+| **`country_code`** | <code>string</code> |
 
 </docgen-api>
